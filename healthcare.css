@@ -1,0 +1,137 @@
+@import url(style.css);
+/* deliver healthcare section start */
+
+.deliever-healthcare-section{
+    padding-top: 0px;
+    padding-left: 120px;
+    padding-right: 120px;
+    padding-bottom: 0px;
+    background-color: var(--third-color);
+}
+.deliever-healthcare-section a{
+    text-decoration: none;
+}
+.deliever-healthcare-text{
+    padding-top: 10px;
+    width: 600px;
+}
+.contact-btn{
+    width: 150px;
+    height: 37px;
+    padding-top: 5px;
+   background: linear-gradient(76deg, rgb(206, 65, 18) 31%, rgb(206, 101, 53) );
+     /* border: 1px solid #0000ab; */
+     border-radius: 7px;
+     color: white;
+}
+
+@media (max-width: 530px) {
+    .deliever-healthcare-section{
+          padding-left: 18px;
+          padding-right: 18px;
+         
+      }
+  }
+
+  @media (max-width: 650px) {
+    .deliever-healthcare-text{
+        width: 100%;
+        padding-top: 40px;
+    }
+} 
+
+/* deliever healthcare section end */
+
+
+.why-choose-hc{
+    padding-top: 100px;
+    padding-left: 70px;
+    padding-right: 70px;
+    padding-bottom: 100px;
+    background-color: var(--third-color);
+}
+.why-hc-text{
+    width: 120%;
+}
+.why-hc-text h1{
+    color: var(--primary-color);
+}
+.reason{
+    padding: 15px;
+    background-color: white;
+}
+.reason h5{
+    color: var(--secondary-color);
+}
+
+@media (max-width: 650px) {
+    .why-choose-hc{
+        width: 100%;
+        padding-top: 40px;
+    }
+} 
+
+
+/* covid section start  */
+.covid-section{
+    padding-top: 100px;
+    padding-left: 70px;
+    padding-right: 70px;
+    padding-bottom: 100px;
+}
+.covid-section h1{
+    margin-bottom: 38px;
+    font-family: Poppins;
+    font-weight: semibold;
+    color: var(--primary-color);
+}
+
+.covid-service{
+    width: 320px;
+    padding: 15px;
+    border: 1px solid rgb(227, 227, 227);
+    border-radius: 7px;
+}
+.covid-service h5{
+    margin-top: 15px;
+}
+@media (max-width: 530px) {
+    .covid-section{
+          padding-left: 18px;
+          padding-right: 18px;
+         
+      }
+  }
+/* covid section end */
+
+/* 
+  Faq section start */
+
+
+  .web-faq-section{
+    padding-top: 100px;
+    padding-left: 100px;
+    padding-right: 130px;
+    padding-bottom: 100px;
+  }
+  .web-faq-section h1{
+      margin-bottom: 60px;
+  }
+
+  .que{
+    padding-top: 26px;
+    margin-bottom: 30px;
+    border-top: 1px solid rgb(224, 224, 224);
+  }
+  .que h5{
+    margin-bottom: 20px;
+  }
+  @media (max-width: 530px) {
+    .web-faq-section{
+          padding-left: 18px;
+          padding-right: 18px;
+         
+      }
+  }
+
+  /* Faq section end */

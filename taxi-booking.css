@@ -1,0 +1,157 @@
+@import url(style.css);
+
+/* grow your business section start */
+
+
+.grow-your-taxi{
+ 
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 100px;
+    background-color: var(--third-color);
+}
+.grow-taxi-text p{
+    font-size: 17px;
+}
+
+.grow-taxi-text{
+    width: 550px;
+}
+.grow-taxi-text h1{
+    margin-bottom: 16px;
+}
+.grow-your-taxi a{
+    text-decoration: none;
+}
+.get-start{
+    width: 150px;
+    height: 38px;
+    padding-top: 5px;
+   background: linear-gradient(76deg, rgb(206, 65, 18) 31%, rgb(206, 101, 53) );
+     /* border: 1px solid #0000ab; */
+     border-radius: 7px;
+     color: white;
+     margin-top: 40px;
+}
+
+.position-absolute {
+    right:300px;
+}
+
+@media (max-width: 500px) {
+    .grow-your-taxi{
+        padding-left: 12px;
+        padding-right: 12px;
+       
+    }
+   
+}
+
+/* grow your business section end */
+
+.catering-solution-section{
+    padding-top: 100px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 100px;
+   
+}
+.catering-solution-section{
+    margin-bottom: 18px;
+}
+.catering-solution-section h1{
+    color: var(--primary-color);
+}
+.catering-solutions{
+    margin-top: 40px;
+}
+
+.catering-solution{
+    width: 380px;
+    height: 340px;
+    border-radius: 8px;
+    border: 1px solid rgb(229, 229, 229);
+    border-bottom: 4px solid var(--secondary-color);
+    padding: 16px;
+}
+.catering-solution img{
+    margin-bottom: 18px;
+   margin-top: 15px;
+}
+
+@media (max-width: 500px) {
+    .catering-solution-section{
+        padding-left: 12px;
+        padding-right: 12px;
+       
+    }
+    .catering-solution{
+        width: 100%;
+    }
+   
+}
+
+/* go for taxi booking section start */
+
+.why-choose-hc{
+    padding-top: 100px;
+    padding-left: 70px;
+    padding-right: 70px;
+    padding-bottom: 100px;
+    background-color: var(--third-color);
+}
+.why-hc-text{
+    width: 110%;
+}
+.why-choose-hc h1{
+    color: var(--primary-color);
+}
+.reason{
+    padding: 10px;
+    background-color: white;
+}
+.reason h5{
+    color: var(--secondary-color);
+}
+
+@media (max-width: 650px) {
+    .why-choose-hc{
+        width: 100%;
+        padding-top: 40px;
+    }
+} 
+
+/* go for taxi booking section end */
+
+ /* Faq section start  */
+
+
+  .web-faq-section{
+    padding-top: 100px;
+    padding-left: 100px;
+    padding-right: 130px;
+    padding-bottom: 100px;
+  }
+  .web-faq-section h1{
+      margin-bottom: 60px;
+  }
+
+  .que{
+    padding-top: 26px;
+    margin-bottom: 30px;
+    border-top: 1px solid rgb(224, 224, 224);
+  }
+  .que h5{
+    margin-bottom: 20px;
+  }
+  @media (max-width: 530px) {
+    .web-faq-section{
+          padding-left: 18px;
+          padding-right: 18px;
+         
+      }
+  }
+
+
+
+  /* Faq section end */

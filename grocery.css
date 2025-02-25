@@ -1,0 +1,217 @@
+@import url(style.css);
+
+/* launch your grocery app section start */
+
+.launch-your-section {
+    padding-top: 70px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 100px;
+    background-color: var(--third-color);
+}
+
+.launch-your-text{
+    width: 600px;
+}
+.launch-your-text a{
+    text-decoration: none;
+}
+.launch-your-text h1{
+    margin-bottom: 18px;
+}
+.get-start-btn{
+    width: 150px;
+    height: 38px;
+    padding-top: 5px;
+   background: linear-gradient(76deg, rgb(206, 65, 18) 31%, rgb(206, 101, 53) );
+     /* border: 1px solid #0000ab; */
+     border-radius: 7px;
+     color: white;
+     margin-top: 25px;
+}
+
+@media (max-width: 500px) {
+    .launch-your-section{
+        padding-left: 12px;
+        padding-right: 12px; 
+    }
+   
+}
+
+
+/* launch your grocery app section end */
+
+/* buisness model section section start */
+
+.buisness-models-section{
+    padding-top: 100px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 100px;
+}
+
+.model-section-text{
+    width: 800px;
+}
+.model-section-text h1{
+    color: var(--primary-color);
+    margin-bottom: 20px;
+}
+.model-section-text p {
+    font-size: 19px;
+}
+.buisness-model{
+    padding: 15px;
+    margin-bottom: 25px;
+    background-color: var(--third-color);
+    border-radius: 10px;
+}
+.model-text h4{
+    color: var(--secondary-color);
+    margin-bottom: 10px;
+}
+
+@media (max-width: 500px) {
+    .buisness-models-section{
+        padding-left: 12px;
+        padding-right: 12px; 
+    }
+   
+
+}
+
+@media (max-width: 900px) {
+    .model-section-text{
+        width: 100%;
+    }
+
+}
+
+
+/* buisness model section section end */
+
+/* empower you buisness section :start  */
+
+.empower-section{
+    padding-top: 100px;
+    padding-left: 130px;
+    padding-right: 130px;
+    padding-bottom: 100px;
+    background-color: var(--third-color);
+}
+.empower-section a{
+    text-decoration: none;
+}
+.contact-btn{
+    width: 150px;
+    height: 38px;
+    padding-top: 5px;
+   background: linear-gradient(76deg, rgb(206, 65, 18) 31%, rgb(206, 101, 53) );
+     /* border: 1px solid #0000ab; */
+     border-radius: 7px;
+     color: white;
+     margin-top: 25px;
+}
+
+@media (max-width: 500px) {
+    .empower-section{
+        padding-left: 12px;
+        padding-right: 12px; 
+    }
+   
+
+}
+
+
+/* empower your buisness section end */
+
+/* what to expect from section start */
+
+.what-expect {
+    padding-top: 100px;
+    padding-left: 160px;
+    padding-right: 160px;
+    padding-bottom: 100px;
+   }
+
+   .expect-services{
+    padding-top: 60px;
+    padding-bottom: 60px;
+    border-radius: 35px 3px 35px 3px;
+    background-color: var(--primary-color);
+   }
+
+   .expect-service{
+    width: 290px;
+    padding: 13px;
+    height: 300px;
+    /* background-color: var(--third-color); */
+    background-color: white;
+    border-radius: 30px 2px 30px 2px;
+   }
+   .expect-service h5{
+      margin-top: 18px;
+      margin-bottom: 15px;
+   }
+
+   .what-expect h1{
+    margin-bottom: 18px;
+   
+    font-family: Poppins;
+    font-weight: semibold;
+    color: var(--primary-color);
+   }
+
+   .what-expect .below-p{
+   font-size: 18px;
+   margin-bottom: 70px;
+   }
+
+   @media (max-width: 630px) {
+    .what-expect{
+          padding-left: 18px;
+          padding-right: 18px;
+         
+      }
+      .expect-service{
+        width: 90%;
+      }
+  }
+
+
+/* what to expect from section end */
+
+
+
+/* 
+  Faq section start */
+
+
+  .web-faq-section{
+    padding-top: 100px;
+    padding-left: 100px;
+    padding-right: 130px;
+    padding-bottom: 100px;
+  }
+  .web-faq-section h1{
+      margin-bottom: 60px;
+  }
+
+
+  .que{
+    padding-top: 26px;
+    margin-bottom: 30px;
+    border-top: 1px solid rgb(224, 224, 224);
+  }
+  .que h5{
+    margin-bottom: 20px;
+  }
+  @media (max-width: 530px) {
+    .web-faq-section{
+          padding-left: 18px;
+          padding-right: 18px;
+         
+      }
+  }
+
+  /* Faq section end */

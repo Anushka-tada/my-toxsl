@@ -1,0 +1,141 @@
+@import url(styel.css);
+
+/* .offering ai section start */
+
+.offering-ai{
+    padding-top: 0px;
+    padding-left: 140px;
+    padding-right: 140px;
+    /* padding-bottom: 80px; */
+    background-color: var(--third-color);
+}
+.offering-ai-text  {
+    width: 530px;
+    margin-right: 60px;
+   
+}
+.offering-ai-text  h2{
+    margin-bottom: 18px;
+    margin-top: 14px;
+ 
+    font-weight: semibold;
+   
+}
+.offering-ai-text p{
+    font-size: 17px;
+}
+.offering-ai-image{
+    height: 508px !important;
+    width: 530px;
+    margin-top: 70px;
+}
+.contact-btn{
+  width: 140px;
+  height: 37px;
+  padding-top: 5px;
+ background: linear-gradient(76deg, rgb(206, 65, 18) 31%, rgb(206, 101, 53) );
+   /* border: 1px solid #0000ab; */
+   border-radius: 7px;
+   color: white;
+}
+
+@media (max-width: 500px) {
+    .offering-ai{
+          padding-left: 12px;
+          padding-right: 12px;
+         
+      }
+  
+     
+  }
+
+  @media (max-width: 650px) {
+    .offering-ai-text  {
+        width: 100%;
+        margin-right: 0px;
+    }
+    .offering-ai-image{
+        height: 308px;
+        width: 90%;
+    }
+     
+  }
+  
+/* offering ai section end */
+
+
+/* human and computer vision section start */
+
+   .human-computer {
+    padding-top: 100px;
+    padding-left: 100px;
+    padding-right: 130px;
+    padding-bottom: 100px;
+   }
+
+   .vision-service{
+    width: 280px;
+    padding: 13px;
+    height: 300px;
+   }
+   .vision-service h5{
+      margin-top: 18px;
+      margin-bottom: 15px;
+   }
+
+   .human-computer h1{
+    margin-bottom: 18px;
+    margin-top: 14px;
+    font-family: Poppins;
+    font-weight: semibold;
+    color: var(--primary-color);
+   }
+
+   .human-computer .below-p{
+   font-size: 18px;
+   margin-bottom: 70px;
+   }
+
+   @media (max-width: 530px) {
+    .human-computer{
+          padding-left: 18px;
+          padding-right: 18px;
+         
+      }
+  }
+
+/* human and computer vision section end */
+
+
+/* 
+  Faq section start */
+
+
+  .web-faq-section{
+    padding-top: 100px;
+    padding-left: 100px;
+    padding-right: 130px;
+    padding-bottom: 100px;
+  }
+  .web-faq-section h1{
+      margin-bottom: 60px;
+  }
+
+  .que{
+    padding-top: 26px;
+    margin-bottom: 30px;
+    border-top: 1px solid rgb(224, 224, 224);
+  }
+  .que h5{
+    margin-bottom: 20px;
+  }
+  @media (max-width: 530px) {
+    .web-faq-section{
+          padding-left: 18px;
+          padding-right: 18px;
+         
+      }
+  }
+
+  /* Faq section end */
+

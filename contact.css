@@ -1,0 +1,116 @@
+@import url(style.css);
+
+.connet-us-section {
+    padding-top: 100px;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-bottom: 100px;
+    font-size: 17px;
+}
+.connet-us-section  h1{
+    color: var(--primary-color);
+}
+.connect-text {
+    width: 60%;
+}
+.contact-form-outer{
+    background-color: var(--third-color);
+    padding: 40px;
+    border: 1px solid rgb(216, 216, 216);
+}
+.connect-form input , textarea{
+    border-radius: 5px;
+   background-color: white;
+    border: none;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+}
+.connect-form button {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 5px;
+}
+.connect-form{
+    width: 100%;
+}
+.social-connect i {
+    background-color: var(--secondary-color);
+     padding: 30px 30px;
+    border-radius: 50%;
+    color: white;
+    height: 50px;
+    width: 50px;
+    font-size: 28px;
+}
+
+.Sumbit-btn{
+    border: none;
+    border-radius: 5px;
+}
+
+@media (max-width: 356px) {
+    .connet-us-section{
+        padding-left: 12px;
+        padding-right: 12px;
+       
+    }
+
+   
+}
+
+
+.contact-form-outer form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-form-outer input,
+.contact-form-outer textarea,
+.contact-form-outer button {
+    width: 100%;
+    box-sizing: border-box; /* To include padding and border in width */
+}
+
+.d-flex {
+    display: flex;
+}
+
+.d-flex.gap-2 > div {
+    flex: 1;
+}
+
+
+/* location */
+
+.location {
+    width: 320px;
+    border: 1px solid #dedede;
+    padding: 15px;
+    height: 220px;
+    border-radius: 8px;
+    background-color: var(--third-color);
+}
+.our-location{
+    padding-top: 100px;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-bottom: 100px;
+    
+}
+
+.our-location h1{
+    margin-bottom: 40px;
+}
+
+
+@media (max-width: 356px) {
+    .our-location{
+        padding-left: 12px;
+        padding-right: 12px;
+       
+    }
+
+   
+}

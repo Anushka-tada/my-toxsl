@@ -1,0 +1,19 @@
+@import url(style.css);
+
+.latest-blogs-section{
+    padding-top: 100px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 100px;
+    background-color: var(--third-color);
+}
+
+@media (max-width: 500px) {
+    .latest-blogs-section{
+          padding-left: 12px;
+          padding-right: 12px;
+         
+      }
+  
+     
+  }

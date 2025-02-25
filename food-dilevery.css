@@ -1,0 +1,148 @@
+@import url(style.css);
+
+/* Food Ordering  section start */
+
+.food-ordering-section{
+    padding-top: 30px;
+    padding-left: 120px;
+    padding-right: 120px;
+    padding-bottom: 60px;
+    background-color: var(--third-color);
+}
+.food-ordering-section a{
+    text-decoration: none;
+}
+.food-ordering-text{
+    width: 150%;
+    margin-top: 40px;
+}
+
+.food-ordering-text h1{
+    margin-bottom: 25px;
+}
+
+.contact-btn{
+    width: 150px;
+  height: 37px;
+  padding-top: 5px;
+ background: linear-gradient(76deg, rgb(206, 65, 18) 31%, rgb(206, 101, 53) );
+   /* border: 1px solid #0000ab; */
+   border-radius: 7px;
+   color: white;
+     margin-top: 40px;
+}
+
+@media (max-width: 530px) {
+    .food-ordering-section{
+          padding-left: 18px;
+          padding-right: 18px;
+         
+      }
+  }
+
+  @media (max-width: 650px) {
+    .food-ordering-text{
+        width: 100%;
+       margin-top: 0px;
+    }
+} 
+
+/* Food Ordering section end */
+
+ /* grow buisness section start */
+
+ .grow-buisness{
+    padding-top: 100px;
+    padding-left: 130px;
+    padding-right: 130px;
+    padding-bottom: 100px;
+ }
+ .grow-buisness h1{
+    margin-bottom: 18px;
+    font-family: Poppins;
+    font-weight: semibold;
+    color: var(--primary-color);
+ }
+ .below-heading{
+    font-size: 17px;
+    margin-bottom: 60px;
+ }
+.food-app{
+    width: 350px;
+    padding: 14px;
+    border-radius: 8px;
+    border: 1px solid rgb(224, 224, 224);
+}
+
+ @media (max-width: 530px) {
+
+    .grow-buisness{
+          padding-left: 12px;
+          padding-right: 12px;  
+      }
+  }
+  
+
+ /* grow buisness section end */
+
+ /* steps we follow section start */
+
+ .steps-follow{
+    padding-top: 100px;
+    padding-left: 130px;
+    padding-right: 130px;
+    padding-bottom: 100px;
+    background-color: var(--third-color);
+ }
+ .steps-follow h1{
+    color: var(--primary-color);
+ }
+
+ .steps-follow .step{
+    width: 280px;
+    height: 300px;
+    padding: 14px;
+    border-radius: 8px;
+    border-bottom: 4px solid var(--secondary-color);
+    background-color: white;
+}
+ @media (max-width: 530px) {
+
+    .steps-follow{
+          padding-left: 12px;
+          padding-right: 12px;  
+      }
+  }
+  
+ /* steps we follow section end */
+ /* 
+  Faq section start */
+
+
+  .web-faq-section{
+    padding-top: 100px;
+    padding-left: 100px;
+    padding-right: 130px;
+    padding-bottom: 100px;
+  }
+  .web-faq-section h1{
+      margin-bottom: 60px;
+  }
+
+  .que{
+    padding-top: 26px;
+    margin-bottom: 30px;
+    border-top: 1px solid rgb(224, 224, 224);
+  }
+  .que h5{
+    margin-bottom: 20px;
+  }
+  @media (max-width: 530px) {
+    .web-faq-section{
+          padding-left: 18px;
+          padding-right: 18px;
+         
+      }
+  }
+
+  /* Faq section end */

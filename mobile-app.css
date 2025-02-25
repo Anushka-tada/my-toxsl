@@ -1,0 +1,313 @@
+@import url(style.css);
+/* Mobile App Development section start */
+.app-development{
+    /* background: url("https://www.spirehubs.com/wp-content/uploads/2024/06/Mobile-App-Development-1.jpg?id=4113") ; */
+    padding-top: 50px;
+    padding-left: 120px;
+    padding-right: 100px;
+    padding-bottom: 0px;
+     width: 100%;
+     background-color: var(--third-color);
+}
+.app-development a{
+  text-decoration: none;
+}
+.app-development h1{
+    margin-bottom: 30px;
+}
+.app-development p{
+    margin-bottom: 28px;
+}
+.app-image {
+    height: 550px !important;
+    width: 600px;
+}
+.app-text{
+  width: 487px;
+}
+.quote-btn{
+    width: 150px;
+   height: 37px;
+   padding-top: 5px;
+  background: linear-gradient(76deg, rgb(206, 65, 18) 31%, rgb(206, 101, 53) );
+    /* border: 1px solid #0000ab; */
+    border-radius: 7px;
+    color: white;
+}
+@media (max-width: 500px) {
+    .app-development {
+          padding-left: 12px;
+          padding-right: 12px;
+         
+      }
+  
+     
+  }
+  @media (max-width: 650px) {
+   
+    .app-image{
+        height: 308px;
+        width: 90%;
+    }
+     
+  }
+
+
+/* Mobile App Development section end */
+
+/* innovative section start */
+
+.innovative-section{
+    padding-top: 80px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 80px;
+}
+.innovative-text {
+    width: 530px;
+    margin-right: 60px;
+}
+.innovative-text h2{
+    margin-bottom: 18px;
+    margin-top: 14px;
+    font-family: Poppins;
+    font-weight: semibold;
+    color: var(--primary-color);
+}
+.innovative-image{
+    height: 508px !important;
+    width: 430px;
+}
+.innovative-section a{
+  text-decoration: none;
+}
+.contact-btn{
+  width: 140px;
+  height: 37px;
+  padding-top: 5px;
+ background: linear-gradient(76deg, rgb(206, 65, 18) 31%, rgb(206, 101, 53) );
+   /* border: 1px solid #0000ab; */
+   border-radius: 7px;
+   color: white;
+}
+
+@media (max-width: 500px) {
+    .innovative-section{
+          padding-left: 12px;
+          padding-right: 12px;
+         
+      }
+  
+     
+  }
+
+  @media (max-width: 650px) {
+    .innovative-text {
+        width: 100%;
+        margin-right: 0px;
+    }
+    .innovative-image{
+        height: 308px;
+        width: 90%;
+    }
+     
+  }
+
+  /* innovative section end */
+
+/* our work  process section start */
+
+
+  .work-process-section {
+    padding-top: 130px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 80px;
+  
+  }
+
+  .work-process-section h2{
+    margin-bottom: 18px;
+    margin-top: 14px;
+    font-family: Poppins;
+    font-weight: semibold;
+    color: var(--primary-color);
+  }
+
+  .below-heading{
+    margin-left: 160px;
+    margin-right: 160px;
+    font-size: 18px;
+  }
+
+  .work-image {
+    padding: 20px;
+    background-color: var(--third-color);
+    border-radius: 50%;
+    border: 1px solid rgb(233, 232, 232);
+  }
+  .work-steps{
+    margin-top: 60px;
+  }
+.work-step{
+   margin-left: 15px;
+   margin-right: 16px;
+}
+.work-step h5{
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+.step-btn button{
+    width:  90px;
+    border-radius: 6px;
+    background-color: var(--secondary-color);
+    color: white;
+    padding: 4px;
+    margin-bottom: 20px;
+}
+
+  @media (max-width: 650px) {
+    .work-process-section {
+        width: 100%;
+        margin-right: 0px;
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+   
+     
+  }
+  @media (max-width: 980px) {
+    
+  .below-heading{
+    margin-left: 20px;
+    margin-right: 20px;
+   
+  }
+     
+  }
+  /* our work  process section end */
+
+
+
+  /* mobile-services */
+
+  .mobile-services {
+    padding: 40px;
+    background-color: var(--third-color);
+    border-radius: 10px;
+  }
+  .mobile-services h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: var(--primary-color) !important;
+  }
+  .mobile-services p {
+    font-size: 1.2rem;
+    margin-bottom: 40px;
+  }
+  .mobile-services {
+    
+    margin-bottom: 10px;
+  
+  }
+  .service-img {
+      background-color: var(--fourth-color);
+      padding: 12px 17px !important;
+      display: inline-flex;
+      align-items: center;
+      border-top-right-radius: 30px;
+      border-bottom-left-radius: 30px;
+      border-top-left-radius: 3px;
+      border-bottom-right-radius: 3px;
+      margin-bottom: 15px;
+      width: 90px;
+  }
+  .mobile-services .service {
+      padding: 20px;
+      background-color: #fff;
+      border: 1px solid #e0e0e0;
+      border-radius: 10px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      transition: transform 0.3s;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      height: 580px;
+   
+  }
+  .mobile-services .service:hover {
+    transform: translateY(-10px);
+  }
+  .mobile-services h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  .mobile-services{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 20px;
+  }
+   .service-btn {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    gap: 7px;
+    margin-top: 20px;
+  }
+  .mobile-services .service-btn p {
+    
+    font-size: 1rem;
+    font-weight: 600;
+  }
+  .mobile-services .row {
+    gap: 30px;
+  }
+  .service{
+   width: 300px;
+
+   
+  }
+  .ser-col{
+      margin-left: 36px;
+  }
+
+  @media (max-width: 650px) {
+    .ser-col{
+        margin-left: 0px;
+    }
+   
+     
+  }
+
+  /* 
+  Faq section start */
+
+
+  .web-faq-section{
+    padding-top: 100px;
+    padding-left: 100px;
+    padding-right: 130px;
+    padding-bottom: 100px;
+  }
+  .web-faq-section h1{
+      margin-bottom: 60px;
+  }
+
+  .que{
+    padding-top: 26px;
+    margin-bottom: 30px;
+    border-top: 1px solid rgb(224, 224, 224);
+  }
+  .que h5{
+    margin-bottom: 20px;
+  }
+  @media (max-width: 530px) {
+    .web-faq-section{
+          padding-left: 18px;
+          padding-right: 18px;
+         
+      }
+  }
+
+  /* Faq section end */

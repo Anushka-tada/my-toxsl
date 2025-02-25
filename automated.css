@@ -1,0 +1,182 @@
+@import url(style.css);
+
+/* innovative section start */
+
+.Automated-testing{
+    /* padding-top: 50px; */
+    padding-left: 100px;
+    padding-right: 100px;
+    /* padding-bottom: 80px; */
+    background-color: var(--third-color);
+}
+.Automated-testing a{
+    text-decoration: none;
+}
+.Automated-testing-text  {
+    width: 530px;
+    margin-right: 60px;
+   
+}
+.Automated-testing-text  h1{
+    margin-bottom: 25px;
+    margin-top: 14px;
+    /* font-family: Poppins; */
+    font-weight: semibold;
+   
+}
+.Automated-testing-image{
+    height: 608px !important;
+    width: 530px;
+    margin-top: 70px;
+}
+.contact-btn{
+    width: 150px;
+  height: 37px;
+  padding-top: 5px;
+ background: linear-gradient(76deg, rgb(206, 65, 18) 31%, rgb(206, 101, 53) );
+   /* border: 1px solid #0000ab; */
+   border-radius: 7px;
+   color: white;
+   margin-top: 15px;
+}
+
+@media (max-width: 500px) {
+    .Automated-testing{
+          padding-left: 12px;
+          padding-right: 12px;
+         
+      }
+  
+     
+  }
+
+  @media (max-width: 650px) {
+    .Automated-testing-text  {
+        width: 100%;
+        margin-right: 0px;
+    }
+    .Automated-testing-image{
+        height: 308px;
+        width: 90%;
+    }
+     
+  }
+
+  /* innovative section end */
+
+
+  /* quality assurence section start  */
+
+.quality-assure{
+    padding-top: 50px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 80px;
+   
+}
+.quality-assure-text h1{
+    margin-bottom: 18px;
+    margin-top: 14px;
+    font-family: Poppins;
+    font-weight: semibold;
+    color: var(--primary-color);
+}
+
+.quality-assure-text{
+   width: 80%;
+}
+
+@media (max-width: 500px) {
+    .quality-assure{
+          padding-left: 12px;
+          padding-right: 12px;
+         
+      }
+  
+     
+  }
+
+  @media (max-width: 650px) {
+    .quality-assure-text {
+        width: 100%;
+        margin-right: 0px;
+    }
+   
+  }
+  /* quality assurence section end */
+
+  /* testing services section start */
+
+.testing-services-section{
+    padding-top: 70px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 100px;
+    background-color: var(--third-color);
+}
+
+.testing-services-section .below-heading{ 
+    font-size: 17px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+.testing-services-section h1{
+    color: var(--primary-color);
+}
+
+.testing-service{
+    width: 330px;
+    height: 290px;
+    padding: 12px;
+    background-color: white;
+    border-radius: 7px;
+    transition: 0.3s ease-in;
+}
+.testing-service:hover{
+     margin-bottom: 15px;
+}
+.testing-service h5{
+  margin-top: 20px;
+}
+
+@media (max-width: 356px) {
+    .testing-services-section{
+        padding-left: 13px;
+        padding-right: 13px;
+       
+    }
+}
+  /* testing services section end */
+
+
+  /* 
+  Faq section start */
+
+
+  .web-faq-section{
+    padding-top: 100px;
+    padding-left: 100px;
+    padding-right: 130px;
+    padding-bottom: 100px;
+  }
+  .web-faq-section h1{
+      margin-bottom: 60px;
+  }
+
+  .que{
+    padding-top: 26px;
+    margin-bottom: 30px;
+    border-top: 1px solid rgb(224, 224, 224);
+  }
+  .que h5{
+    margin-bottom: 20px;
+  }
+  @media (max-width: 530px) {
+    .web-faq-section{
+          padding-left: 18px;
+          padding-right: 18px;
+         
+      }
+  }
+
+  /* Faq section end */

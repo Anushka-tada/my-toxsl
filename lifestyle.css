@@ -1,0 +1,127 @@
+@import url(style.css);
+
+/* avail-of-best section start */
+
+.avail-of-section{
+    padding-top: 100px;
+    padding-left: 120px;
+    padding-right: 120px;
+    padding-bottom: 100px;
+    background-color: var(--third-color);
+}
+.avail-of-text{
+    width: 600px;
+}
+.avail-of-text h1{
+  margin-bottom: 18px;
+
+}
+.avail-of-section a{
+  text-decoration: none;
+}
+.contact-btn{
+  width: 140px;
+  height: 37px;
+  padding-top: 5px;
+ background: linear-gradient(76deg, rgb(206, 65, 18) 31%, rgb(206, 101, 53) );
+   /* border: 1px solid #0000ab; */
+   border-radius: 7px;
+   color: white;
+   margin-top: 30px;
+}
+
+@media (max-width: 530px) {
+    .avail-of-section{
+          padding-left: 18px;
+          padding-right: 18px;
+         
+      }
+  }
+
+  @media (max-width: 650px) {
+    .avail-of-text{
+        width: 100%;
+       
+    }
+} 
+
+/* avail-of-best section end */
+
+
+/* diliever-lifestyle section start */
+
+  .diliever-lifestyle{
+    padding-top: 100px;
+    padding-left: 100px;
+    padding-right: 130px;
+    padding-bottom: 100px;
+  }
+
+  .lifestyle-image{
+     margin-bottom: 15px;
+  }
+
+  .diliever-lifestyle h1{
+    margin-bottom: 18px;
+    font-family: Poppins;
+    font-weight: semibold;
+    color: var(--primary-color);
+  }
+
+  .diliever-lifestyle p{
+    font-size: 17px;
+    
+    margin-bottom: 80px;
+  }
+
+  .lifestyle-solution{
+      width: 350px;
+      padding: 15px;
+      height: 270px;
+      border-radius: 8px;
+      border-left: 1px solid rgb(231, 231, 231);
+      border-right: 1px solid rgb(231, 231, 231);
+      border-bottom: 4px solid var(--secondary-color);
+  }
+
+  @media (max-width: 530px) {
+    .diliever-lifestyle{
+          padding-left: 18px;
+          padding-right: 18px;
+         
+      }
+  }
+/* diliever-lifestyle section end */
+
+/* 
+  Faq section start */
+
+
+  .web-faq-section{
+    padding-top: 100px;
+    padding-left: 100px;
+    padding-right: 130px;
+    padding-bottom: 100px;
+  }
+  .web-faq-section h1{
+      margin-bottom: 60px;
+  }
+
+
+  .que{
+    padding-top: 26px;
+    margin-bottom: 30px;
+    border-top: 1px solid rgb(224, 224, 224);
+  }
+  .que h5{
+    margin-bottom: 20px;
+  }
+  @media (max-width: 530px) {
+    .web-faq-section{
+          padding-left: 18px;
+          padding-right: 18px;
+         
+      }
+  }
+
+  /* Faq section end */

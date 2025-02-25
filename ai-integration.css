@@ -1,0 +1,64 @@
+@import url(style.css);
+
+.ai-integrate{
+    padding-top:100px;
+    padding-bottom: 100px;
+    padding-left: 90px;
+    padding-right: 90px;
+    background-color: var(--secondary-color);
+    color: white;
+    text-shadow: 3px 3px 3px rgba(148, 148, 148, 0.3), 0 0 1px rgba(177, 177, 177, 0.2);
+}
+
+
+.ai-integrate-image{
+    padding-left: 167px;
+    padding-right: 167px;
+    margin-top: 70px;
+}
+.date{
+    background-color: var(--fourth-color);
+    padding: 0px 8px;
+    margin-left: 0px;
+  
+}
+.artificial-intelligencee{
+    background-color: var(--third-color);
+    padding: 0px 8px;
+}
+
+.text-section{
+    margin-top: 100px;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+.text-section h3 , .text-section h2 , .text-section h4{
+    margin-bottom: 15px;
+    margin-top: 8px;
+}
+.text-section p, .text-section ul {
+    margin-bottom: 28px;
+}
+
+strong{
+    color: var(--primary-color);
+}
+
+@media (max-width: 356px) {
+    .ai-integrate{
+        padding-left: 12px;
+        padding-right: 12px;
+        }
+      
+        
+}
+@media (max-width: 850px){
+    .text-section{
+padding-left: 15px;
+padding-right: 15px;
+    }
+    .ai-integrate-image{
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}

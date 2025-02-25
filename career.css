@@ -1,0 +1,185 @@
+:root {
+    --primary-color: #e15f23; /* Primary color */
+    --secondary-color: #0b580f; /* Secondary color */
+    --third-color:#26770b0d;
+    --fourth-color:#fdf1ec;
+}
+ 
+ /* career section start */
+
+   .new-career{
+    height: 450px;
+    background: url("https://www.spirehubs.com/wp-content/uploads/2024/06/%E2%80%8DDiscover-your-new-career.jpg?id=4127");
+    background-position: center top !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+       }
+   
+ /* career section end */
+
+ /* offering-glance-section  start */
+
+ .glance{
+        padding-top: 100px;
+        padding-left: 100px;
+        padding-right: 100px;
+        padding-bottom: 100px;
+ }
+.glance h1{
+    color: var(--primary-color);
+    font-family: Poppins;
+    font-weight: semibold;
+   
+}
+
+.glance-service{
+    margin-left: 40px;
+    margin-top: 50px;
+}
+
+.glance-image{
+    background-color: var(--third-color);
+    width: 90px;
+    height: 90px;
+    border-radius: 12px;
+    
+}
+.glance-service p{
+    color: var(--secondary-color);
+    font-size: 17px;
+    font-weight: 600;
+}
+
+@media (max-width: 356px) {
+    .glance{
+        padding-left: 12px;
+        padding-right: 12px;
+       
+    }
+
+    .glance-service{
+        margin-left: 8px;
+       
+    }
+}
+
+ /* offering-glance-section  end */
+
+
+/* benefites section start */
+
+.benefits-section{
+    padding-top: 70px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 100px;
+    border-top: 1px solid #dddddd
+} 
+.benefits-section h1{
+    color: var(--primary-color);
+    font-family: Poppins;
+    font-weight: semibold;
+}
+
+
+.benefit-below-head{
+    font-size: 18px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.benefit{
+    border-radius: 7px;
+    width: 250px;
+    height: 180px;
+    box-shadow: 0px 0px 47px 13px #ffded0;
+
+}
+.benefit:hover{
+    box-shadow: 0px 0px 47px 13px #ffded0;
+
+} 
+.benefits{
+    margin-top: 50px;
+}
+.benefits p {
+    color: var(--secondary-color);
+    font-size: 17px;
+    font-weight: 600;
+}
+@media (max-width: 356px) {
+    .benefits-section{
+        padding-left: 12px;
+        padding-right: 12px;
+       
+    }
+}
+
+
+
+ /* benefites section end */
+
+
+ /* unlock Potential section start */
+.potential-section {
+    padding-top: 70px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 100px;
+    background-color: var(--third-color);
+}
+.potential-section h1{
+    font-family: Poppins;
+    font-weight: semibold;
+}
+.potential-img {
+    width: 150px;
+    height: 150px;
+    background-color: white;
+    border-radius: 50%;
+    position: relative;
+}
+.potential p{
+    margin-top: 20px;
+    color: var(--secondary-color);
+    font-size: 17px;
+    font-weight: 600;
+}
+.potential-below{
+    font-size: 18px;
+}
+.potentials{
+    margin-top: 40px;
+}
+
+.potential-num{
+     padding: 10px 14px;
+     position: absolute;
+     background-color: var(--primary-color);
+     border-radius: 50%;
+    margin-top: 80px;
+    color: white;
+
+}
+.row-image{
+    margin-bottom: 60px;
+}
+
+@media (max-width: 356px) {
+    .potential-section {
+        padding-left: 12px;
+        padding-right: 12px;
+       
+    }
+}
+
+@media (max-width: 868px) {
+    .row-image{
+      display: none;
+    }
+    .potentials{
+        gap: 18px;
+    }
+}
+
+
+ /* unlock Potential section start */

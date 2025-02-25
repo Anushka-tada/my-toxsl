@@ -1,0 +1,114 @@
+/* portfolio section start */
+.portfolio-section{
+    padding-top: 70px;
+    padding-left: 120px;
+    padding-right: 100px;
+    padding-bottom: 70px;
+     width: 100%;
+     background-color: var(--third-color);
+}
+.portfolio-section-text p{
+  font-size: 17px;
+}
+.portfolio-section a{
+   text-decoration: none;
+}
+.portfolio-section-text{
+    width: 470px;
+}
+.portfolio-section-text h1{
+    margin-bottom: 18px;
+}
+
+.explore-btn{
+    width: 160px;
+  height: 37px;
+  padding-top: 5px;
+ background: linear-gradient(76deg, rgb(206, 65, 18) 31%, rgb(206, 101, 53) );
+   /* border: 1px solid #0000ab; */
+   border-radius: 7px;
+   color: white;
+   margin-top: 50px;
+}
+@media (max-width: 500px) {
+    .portfolio-section {
+          padding-left: 12px;
+          padding-right: 12px;
+         
+      }
+  
+     
+  }
+/* portfolio-section section end */
+.portfolio{
+     margin-top: 100px;
+     margin-bottom: 100px;
+     
+}
+
+.portfolio h1{
+    color: var(--primary-color);
+}
+.portfolio a{
+    text-decoration: none;
+}
+
+
+
+.portfolio-text {
+  width: 60%;
+  padding-top: 70px;
+  padding-bottom: 70px;
+  padding-left: 80px;
+  padding-right: 40px;
+}
+.portfolio-image-wonolo , .portfolio-image-blinq ,.portfolio-image-next , .portfolio-image-basigo{
+    width: 60%;
+    
+}
+.portfolio-text h4{
+    color: var(--secondary-color);
+}
+.request-btn{
+    width: 180px;
+    height: 37px;
+    padding-top: 5px;
+   background: linear-gradient(76deg, rgb(206, 65, 18) 31%, rgb(206, 101, 53) );
+     /* border: 1px solid #0000ab; */
+     border-radius: 7px;
+     color: white;
+     margin-top: 50px;
+}
+
+.portfolio-image img{
+  
+}
+.portfolio-image-wonolo{
+   
+   background: url("https://toxsl.com/portfolio/bc-image/597?file=portfolio-1688469938-background_image-user_id_7.png") ;
+}
+
+.portfolio-image-blinq{
+    background: url("https://toxsl.com/portfolio/bc-image/965?file=portfolio-1690803594-background_imhttpsage-user_id_7.png");
+}
+.portfolio-image-next{
+    background: url("https://toxsl.com/portfolio/bc-image/1001?file=portfolio-1733897598-background_image-user_id_11.png");
+}
+.portfolio-image-basigo{
+    background: url("https://toxsl.com/portfolio/bc-image/983?file=portfolio-1689162960-background_image-user_id_7.png");
+}
+
+@media (max-width: 993px) {
+    .portfolio-text {
+        width: 100%;
+        padding-top: 70px;
+        padding-bottom: 70px;
+        padding-left: 70px;
+        padding-right: 30px;
+      }
+      .portfolio-image-wonolo ,.portfolio-image-blinq , .portfolio-image-next  , .portfolio-image-basigo{
+          width: 100%;
+          
+      }
+     
+  }

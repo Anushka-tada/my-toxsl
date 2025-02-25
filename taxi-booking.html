@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Taxi Booking</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="taxi-booking.css" />
+    <link rel="icon" href="./images/DOUSOFT_LOGO_8.png">
+    <script
+    src="https://kit.fontawesome.com/cebea60af2.js"
+    crossorigin="anonymous"
+  ></script>
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+    crossorigin="anonymous"
+  />
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"
+  ></script>
+</head>
+<body>
+
+      <!-- navbar code start -->
+
+      <nav class="navbar navbar-expand-lg navbar-light bg-white">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="./index.html"
+            ><img
+              src="./images/DOUSOFT_LOGO_8.png"
+              alt=""
+              width="80"
+          /></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item item-1 dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="navbarDropdownMenuLink"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Company
+                </a>
+                <ul
+                  class="dropdown-menu"
+                  aria-labelledby="navbarDropdownMenuLink"
+                >
+                  <li><a class="dropdown-item" href="./about.html">About us</a></li>
+                  <li><a class="dropdown-item" href="./client-review.html">Client Reviews</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="navbarDropdownMenuLink"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Services
+                </a>
+                <ul
+                  class="dropdown-menu"
+                  aria-labelledby="navbarDropdownMenuLink"
+                >
+                  <li>
+                    <a class="dropdown-item"   href="#"
+                      >Web Development</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="./mobile-app.html">Mobile App Development</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="./website-design.html">Web Design Services</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="./artificial.html">Artifficial Inteligence</a>
+                  </li>
+                  <li><a class="dropdown-item" href="./digital-marketing.html">Degital Marketing</a></li>
+                  <li><a class="dropdown-item" href="./automated.html">Automated Testing</a></li>
+                  <li><a href="./ERP.html" class="dropdown-item">ERP Services</a></li>
+                  <li><a href="./internet-thing.html" class="dropdown-item"> Internet of Things</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="navbarDropdownMenuLink"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Solutions
+                </a>
+                <ul
+                  class="dropdown-menu"
+                  aria-labelledby="navbarDropdownMenuLink"
+                >
+                  <li><a class="dropdown-item" href="./lifestyle.html">Lifestyle</a></li>
+                  <li><a class="dropdown-item" href="./healthcare.html">Healthcare</a></li>
+                  <li><a class="dropdown-item" href="./e-commerce.html">E-commerce</a></li>
+                  <li>
+                    <a class="dropdown-item" href="./education-app.html">Education App Developement</a>
+                  </li>
+                  <li><a class="dropdown-item" href="./food-dilevery.html">Food Delievery</a></li>
+                  <li><a class="dropdown-item" href="./taxi-booking.html">Taxi Booking</a></li>
+                  <li><a class="dropdown-item" href="./grocery.html">Grocery Delivery</a></li>
+                  <li><a class="dropdown-item" href="./real-estate.html">Real Estate</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./Career.html">careers</a>
+              </li>
+              <!-- <li class="nav-item">
+                <a class="nav-link" href="./portfolio.html">Portfolio</a>
+              </li> -->
+  
+              <li class="nav-item nav-contact">
+                <div class="rounded ">
+                  <a href="./contact.html">  <p class="text-light">Contact us</p></a>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+  
+      <!-- navbar code end -->
+
+      <!-- Grow your taxi section start -->
+
+      <div class="grow-your-taxi d-flex flex-wrap flex-lg-nowrap justify-content-around gap-5 align-items-center">
+        <div class="grow-taxi-text">
+            <h1>Grow Your Taxi Operations With On-demand Taxi Booking Solutions</h1>
+        <p>Grow your business, raise operational efficiency and revenue with our customized
+             on-demand Taxi booking app development services.</p>
+        <a href="./contact.html">
+            <div class="get-start d-flex justify-content-center">
+                <p>Get Started</p>
+             </div>  
+        </a>
+         
+        </div>
+        <div class="grow-taxi-image d-flex justify-content-start">
+        <img src="https://toxsl.com/themes/new/img/screen/taxi-booking2.png" alt="" class="img-fluid  " height="650" width="330">
+
+        </div>  
+      </div>
+
+
+      <!-- Grow your taxi section end -->
+
+      <!-- catering solution section start  -->
+
+      <div class="catering-solution-section d-flex  flex-column align-items-center justify-content-center ">
+        <h1>Catering Our Solutions For The Following Businesses</h1>
+        <p>Dousoft offers customizable solutions and is ready to run any business that requires fleet handling.
+             Here are the solutions our business verticals are common to:</p>
+
+         <div class="catering-solutions d-flex justify-content-center align-items-center gap-4 flex-wrap flex-xl-nowrap">
+            <div class="catering-solution d-flex flex-column shadow">
+                <img src="https://toxsl.com/themes/new/img/icons/taxi_business.png" alt="" height="85" width="85">
+                <h3>Private Business/ Taxi Business</h3>
+                <p>If you are managing an independent Taxi business or a traditional one, our ready-made
+                     solutions will help you transform and bring more rides with
+                      our app development services.</p>
+            </div>
+
+            <div class="catering-solution d-flex flex-column  shadow">
+                <img src="https://toxsl.com/themes/new/img/icons/rental.png" alt=""  height="85" width="85">
+                <h3>CarPooling and Rental</h3>
+                <p>The carpooling apps are gaining huge popularity. It offers huge savings for the users.
+                     So offering such services will bring more riders to
+                      your platform so that you can earn more.</p>
+            </div>
+
+            <div class="catering-solution d-flex flex-column  shadow">
+                <img src="https://toxsl.com/themes/new/img/icons/enterprises.png" alt=""  height="85" width="85">
+                <h3>For Corporates/ Enterprises</h3>
+                <p>Each enterprise has different requirements but we offer the best solutions to
+                     simplify mobility needs. Our customized solutions cater to
+                      the need of the client.</p>
+            </div>
+         </div>   
+      </div>
+
+      <!-- catering solution section end -->
+
+
+       <!-- why choose for healthcare section start -->
+
+    <div class="why-choose-hc d-flex justify-content-center align-items-center flex-wrap flex-lg-nowrap gap-5">
+        <div class="why-hc-text d-flex flex-column justify-center align-items-center gap-4">
+           <h1>Why Go For Taxi Booking App Development?</h1>
+           <p>
+            People nowadays prefer convenient and safe modes of transportation, so there was a boost in the on-demand Taxi booking services. It offers economical and effective services.  </p>
+           <img 
+            src="https://toxsl.com/themes/new/img/screen/map.png"
+            alt="" class="img-fluid"
+              />
+            </div>
+        <div class="why-hc-reasons d-flex flex-column justify-content-center align-items-center gap-3">
+          <div class="reason d-flex flex-wrap flex-lg-nowrap justify-content-between align-items-center gap-4">
+            <div class="reason-img">
+              <img  src="https://toxsl.com/themes/new/img/icons/taxi_app.png"  alt="" height="60" width="60"   />
+            </div>
+            <div class="reason-text">
+              <h5>User-Friendly Customer & Driver Apps</h5>
+              <p>
+                We offer a user-friendly, easy-to-use driver and user app that offers you a competitive edge while making you stay ahead of the curve in the online Taxi Booking business.
+              </p>
+            </div>
+          </div>
+  
+          <div class="reason d-flex flex-wrap flex-lg-nowrap justify-content-between align-items-center gap-4">
+              <div class="reason-img">
+                <img src="	https://toxsl.com/themes/new/img/icons/analytics.png" alt="" height="60" width="60" />
+              </div>
+              <div class="reason-text">
+                <h5>Real-time Analytics for Tracking</h5>
+                <p>
+                    We offer a powerful dashboard that helps to track progress in real-time. So easily monitor your entire workforce now.   </p>
+              </div>
+            </div>
+  
+  
+            <div class="reason d-flex flex-wrap flex-lg-nowrap justify-content-between align-items-center gap-4">
+              <div class="reason-img">
+                <img  src="https://toxsl.com/themes/new/img/icons/visibilty.png"  alt="" height="60" width="60"  />
+              </div>
+              <div class="reason-text">
+                <h5>Higher Visibility</h5>
+                <p>
+                    Taxi booking applications offer higher visibility that helps businesses generate a loyal customer base and retention.
+
+                </p>
+              </div>
+            </div>
+  
+            <div class="reason d-flex flex-wrap flex-lg-nowrap justify-content-between align-items-center gap-4">
+              <div class="reason-img">
+                <img src="https://toxsl.com/themes/new/img/icons/efficiency.png"  alt="" height="60" width="60" />
+              </div>
+              <div class="reason-text">
+                <h5>Enhanced Efficiency</h5>
+                <p>
+                    Taxi booking app solutions help businesses boost their efficiency as they automate all the operations and streamline the process.    </p>
+              </div>
+            </div>
+  
+            <div class="reason d-flex flex-wrap flex-lg-nowrap justify-content-between align-items-center gap-4">
+              <div class="reason-img">
+                <img src="https://toxsl.com/themes/new/img/icons/Fully_customized_solution.png" alt="" height="60" width="60"/>
+              </div>
+              <div class="reason-text">
+                <h5>Multiple Payment Gateways</h5>
+                <p>
+                    We integrate multiple payment gateways such as Stripe, PayPal, Credit/Debit cards, and more that make it easy for the users to make the payment instantly.     </p>
+              </div>
+            </div>
+        </div>
+      </div>
+  
+      <!-- why choose for healthcare section end -->
+  
+             <!--Mobile Faq section start -->
+  
+    <div class="web-faq-section  d-flex flex-column align-items-center ">
+      <h1>Frequently Asked Questions</h1>
+      <div class="Faqs">
+         
+              <div class="que">
+                  <h5>How much does taxi booking app development cost??</h5>
+                  <p>The cost of taxi booking app development can vary depending on several factors such as the complexity of the app, the number of features included, the platform (iOS or Android), and the geographical location of the development team. On average, the cost can range from $5,000 to $20,000 or more.  </p>
+                 
+              </div>
+         
+              <div class="que">
+                  <h5>Why choose ToXSL Technologies for taxi booking app development?</h5>
+                  <p>ToXSL Technologies is a reputable taxi booking app development company that offers top-notch services for developing a successful and secure app. Here are some reasons why you should choose us:</p>
+                  <ul class="mt-3">
+                    <li><p><strong>Expertise: </strong>Our team has extensive experience in developing taxi booking
+                        apps, with a proven track record of delivering successful projects.</p></li>
+                    <li><p>
+                    <strong>Customization: </strong>We tailor our services to meet your specific needs and
+                        requirements, ensuring that the app is customized to suit your brand and target audience.
+                    </p>
+                    </li>
+                    <li><p><strong>Security: </strong>We prioritize security by implementing advanced encryption and
+                        authentication techniques to protect user data and ensure a seamless transaction process.</p>
+                    </li>
+                    <li><p>
+                    <strong>Scalability: </strong>Our apps are designed to scale with your business growth,
+                        ensuring that you can easily expand your services as your company grows.
+                    </p></li>
+                    <li><p>
+                    <strong>Support: </strong>We offer ongoing support and maintenance to ensure that your app
+                        runs smoothly and efficiently, addressing any issues or bugs that may arise.
+                    </p></li>
+                </ul>
+              </div>
+              
+              <div class="que">
+                  <h5>How long does it take to develop a taxi booking app?</h5>
+                  <p>The time required to develop a taxi booking app can vary depending on the scope of the project. However, on average, it takes around 8-12 weeks to develop a basic taxi booking app with essential features. Additional features and complexity can extend the development timeframe.</p>
+                 
+              </div>
+  
+              <div class="que">
+                  <h5>Will you sign an NDA for my taxi booking project?</h5>
+                  <p>Yes, we sign Non-Disclosure Agreements (NDAs) for our clients' projects. This agreement ensures that your project's confidential information is protected and cannot be disclosed to any third party without your explicit permission.  </p>
+                 
+              </div>
+  
+  
+              <div class="que">
+                  <h5>How does your team ensure that the app is secure or not?</h5>
+                  <p>At ToXSL Technologies, we prioritize the security of your app by implementing advanced security measures throughout the development process. Here are some ways we ensure the app's security:</p>
+                  <ul class="mt-3">
+                    <li><p>
+                    <strong>Data Encryption: </strong>We encrypt sensitive user data, such as payment
+                        information and personal details, using industry-standard encryption protocols.
+                    </p></li>
+                    <li><p>
+                    <strong>Authentication Mechanisms: </strong>We implement robust authentication mechanisms to prevent unauthorized access to the app's features and user data.
+                    </p>
+                    </li>
+                    <li><p>
+
+                    <strong>Regular Security Audits: </strong>We conduct regular security audits to identify and address any potential vulnerabilities in the app.
+                    </p>
+                    </li>
+                    <li><p>
+                    <strong>Secure Servers: </strong>We use secure servers and databases to store user data, ensuring that it is protected from cyber threats.
+                    </p></li>
+                    <li><p>
+                    <strong>PCI Compliance: </strong>We comply with the Payment Card Industry Data Security Standard (PCI DSS) to ensure that users' payment information is protected when processing transactions through the app.
+                    </p></li>
+                </ul>
+              </div>
+  
+      </div>
+    </div>
+  
+  
+  <!-- Mobile faq section end -->
+  
+  
+    <!-- footer section start -->
+
+    <div class="footer ">
+      <div class="footer-lists d-flex flex-wrap flex-lg-nowrap">
+        <div class="footer-list">
+          <h4>Company</h4>
+          <ul class="footer-address-list ">
+          <a href="./about.html">  <li>About Dousoft</li></a>
+            <li>Life At Dousoft</li>
+            <li>How We Work </li>
+           <a href="./client-review.html"> <li>What Our Clients Say</li></a>
+           <a href="./contact.html"> <li>Contact Us </li></a>
+           
+          </ul>
+          <div class="read-btn p-1 px-3  rounded">
+           <a href="./contact.html"> <p>  Start a Meeting</p></a>
+            </div>
+       
+        </div>
+  
+        <div class="footer-list">
+          <h4>Services</h4>
+          <ul class="footer-address-list link-hover">
+           <a href="./mobile-app.html"> <li>Mobile App Developement Services</li></a>
+            <a href="./Web-Development.html"><li>Web Development Services </li></a>
+           <a href="./ERP.html"> <li> ERP Software Development Services </li></a>
+           <a href="./website-design.html"> <li> Web Design Services </li></a>
+           <a href="./digital-marketing.html"> <li> DigitalMarketing Services </li></a>
+         <a href="./artificial.html">   <li> Artificial Intelligence </li></a>
+           <a href="./automated.html"> <li> AutomatedTesting </li></a>
+           <a href="./internet-thing.html"> <li> IoT Application Services </li></a>
+          <a href="./all-services.html">
+            <li> All Services </li>
+          </a>  </ul>
+       
+        </div>
+  
+  
+        <div class="footer-list">
+          <h4>Industries</h4>
+          <ul class="footer-address-list link-hover">
+            <a href="./taxi-booking.html"> <li> Taxi Booking </li></a>
+            <a href="./lifestyle.html"> <li> Lifestyle </li></a>
+            <a href="./healthcare.html"> <li> Healthcare </li></a>
+           <a href="./grocery.html">  <li> Grocery Delivery </li></a>
+             <a href="./food-dilevery.html"><li> Food Delivery </li></a>
+            <a href="./internet-thing.html"> <li> Internet of Things </li></a>
+           <a href="./education-app.html">  <li> Education </li></a>
+           <a href="./real-estate.html">  <li> Real Estate </li></a>
+             
+           <a href="./e-commerce.html">  <li> E-Commerce </li></a>
+           </ul>
+        </div>
+  
+  
+        <div class="footer-list">
+          <h4>Resources</h4>
+          <ul class="footer-address-list ">
+           <a href="./Blogs.html">
+            <li> Blog </li>
+           </a>
+          <a href="./Hire-us.html">  <li> Hire Us </li></a>
+            <li> Trainings </li>
+            <li> Privacy Policy </li>
+            <li> Terms &amp; Conditions </li>
+      
+          </ul>
+       
+        </div>
+  
+  
+        <div class="footer-list">
+          <h4>Contact us</h4>
+          <ul class="footer-address-list ">
+            <li class="d-flex align-items-baseline gap-3 "><i class="fas fa-envelope"></i><p> info@dousoft.in  </p></li>
+            <li class="d-flex align-items-baseline gap-3 ">
+              <i class="fas fa-phone"></i>
+           <div>   <p class="mb-3">+91 8877639698</p> </div>
+            </li>
+            <li class="d-flex align-items-baseline gap-3  "><i class="fas fa-map-marker-alt"></i><p>B block Noida Uttar pradesh  201301</p></li>
+          </ul>
+        </div>
+     </div>
+     <hr>
+    
+     <p class="copyright">Copyright 2022 - 2025 <span class="blue-text">Dousoft IT Solution Pvt. Ltd.
+  
+    </div>
+  
+    <!-- footer section end -->
+  
+  
+    
+
+    
+</body>
+</html>

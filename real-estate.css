@@ -1,0 +1,151 @@
+@import url(style.css);
+
+/* real estate app section start */
+
+
+.real-estate-app{
+ 
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 100px;
+    background-color: var(--third-color);
+}
+.real-estate-app p{
+    font-size: 17px;
+}
+
+.real-estate-text{
+    width: 550px;
+}
+.real-estate-text h1{
+    margin-bottom: 16px;
+}
+.real-estate-text a{
+    text-decoration: none;
+}
+.get-start{
+    width: 150px;
+    height: 38px;
+    padding-top: 5px;
+   background: linear-gradient(76deg, rgb(206, 65, 18) 31%, rgb(206, 101, 53) );
+     /* border: 1px solid #0000ab; */
+     border-radius: 7px;
+     color: white;
+     margin-top: 40px;
+}
+
+@media (max-width: 500px) {
+    .real-estate-app{
+        padding-left: 12px;
+        padding-right: 12px;
+       
+    }
+   
+}
+
+/* real estate app section end */
+
+
+/* estate solution :start */
+
+.estate-solution-section{
+    padding-top: 100px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 100px;
+    
+}
+
+.estate-solution{
+    width: 400px;
+    height: 300px;
+    border-radius: 8px;
+    border: 1px solid rgb(229, 229, 229);
+    
+    padding: 16px;
+}
+
+.estate-solution-section{
+    margin-bottom: 18px;
+}
+.estate-solution-section h1{
+    color: var(--primary-color);
+}
+.estate-solutions{
+    margin-top: 40px;
+}
+
+@media (max-width: 650px) {
+    .estate-solution-section{
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+    .estate-solution{
+        width: 100%;
+    }
+} 
+
+
+/* estate solution end */
+
+
+.why-choose-hc{
+    padding-top: 100px;
+    padding-left: 70px;
+    padding-right: 70px;
+    padding-bottom: 100px;
+    background-color: var(--third-color);
+}
+.why-hc-text{
+    width: 110%;
+}
+.why-choose-hc h1{
+    color: var(--primary-color);
+}
+.reason{
+    padding: 10px;
+    background-color: white;
+}
+.reason h5{
+    color: var(--secondary-color);
+}
+
+@media (max-width: 650px) {
+    .why-choose-hc{
+        width: 100%;
+        padding-top: 40px;
+    }
+} 
+
+
+ /* 
+  Faq section start */
+
+
+  .web-faq-section{
+    padding-top: 100px;
+    padding-left: 100px;
+    padding-right: 130px;
+    padding-bottom: 100px;
+  }
+  .web-faq-section h1{
+      margin-bottom: 60px;
+  }
+
+  .que{
+    padding-top: 26px;
+    margin-bottom: 30px;
+    border-top: 1px solid rgb(224, 224, 224);
+  }
+  .que h5{
+    margin-bottom: 20px;
+  }
+  @media (max-width: 530px) {
+    .web-faq-section{
+          padding-left: 18px;
+          padding-right: 18px;
+         
+      }
+  }
+
+  /* Faq section end */

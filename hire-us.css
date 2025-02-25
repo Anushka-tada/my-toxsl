@@ -1,0 +1,42 @@
+@import url(style.css);
+
+.hire-our-team{
+    padding-top: 100px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 100px;
+    background-color: var(--third-color);
+}
+.hire-our-team h1{
+    margin-bottom: 20px;
+
+}
+.hire-our-team p{
+    font-size: 18px;
+}
+.different-domain-section h1{
+    color: var(--primary-color);
+    margin-bottom: 50px;
+}
+.different-domain-section{
+    padding-top: 60px;
+    padding-bottom: 70px;
+    padding-left: 120px;
+    padding-right: 120px;
+}
+.domain p{
+    margin-top: 13px;
+    font-size: 20px;
+}
+
+@media (max-width: 500px) {
+    .hire-our-team{
+        padding-left: 12px;
+        padding-right: 12px; 
+    }
+    .different-domain-section{
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+   
+}
