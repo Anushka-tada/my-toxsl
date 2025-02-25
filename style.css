@@ -265,7 +265,7 @@ text-decoration: none;
     position: absolute;
     right: 549px;
     top: 400px;
-    width: 150px;
+  
     background-color: #e46c34;
     color: white;
     animation: moveUpDown 4s ease-in-out infinite;
