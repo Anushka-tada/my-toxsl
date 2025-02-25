@@ -456,8 +456,8 @@ background: linear-gradient(0deg, rgba(38,119,11,0) 10%, rgba(38,119,11,0.020133
     .skill{
         margin-left: 8px !important;
         margin-right: 8px !important;
-        width: 90px;
-        height: 100px;
+        width: 100px;
+        height: 122px;
     }
 }
 
@@ -700,6 +700,9 @@ background: linear-gradient(0deg, rgba(38,119,11,0) 10%, rgba(38,119,11,0.020133
   .pulse:hover {
     animation: pulse 1s infinite;
   }
+
+
+  
 /* industries section end */
 
 
@@ -938,6 +941,7 @@ background: linear-gradient(0deg, rgba(38,119,11,0) 10%, rgba(38,119,11,0.020133
     display: flex;
     justify-content: center;
    margin-top: 12px;
+   margin-bottom: 15px;
    background-color: rgba(99, 30, 5, 0.367);
 }
 .footer-lists{
